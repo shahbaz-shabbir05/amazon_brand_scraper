@@ -1,12 +1,21 @@
-Django==4.2
-Scrapy==2.5.1
-Celery==5.2.3
-redis==4.0.2
+# Core Framework
+Django==4.2.7
+
+# Web Scraping
+Scrapy==2.8.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+requests==2.31.0
+
+# Asynchronous Task Queue
+Celery==5.3.0
+redis==4.5.5
 django-celery-beat==2.5.0
-django-celery-results==2.3.0
-requests==2.25.1
-beautifulsoup4==4.9.3
-lxml==5.3.0
+django-celery-results==2.5.1
+
+# API Development
 djangorestframework==3.14.0
-django-filter==23.2
-django-redis==5.2.0
+django-filter==23.1
+
+# Caching
+django-redis==5.3.0
